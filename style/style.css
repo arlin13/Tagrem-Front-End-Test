@@ -1,6 +1,13 @@
 body{
-    /*background-image: url(./../materials/images/);*/
     background-color: #E2E2E2;
+}
+
+#banner{
+    background-image: url("./../materials/images/banner.jpg");   
+    height: 416px; 
+}
+
+#container{
     max-width: 960px;
     margin: 0 auto;
 }
@@ -41,9 +48,9 @@ p{
 
 
 
-/**/
+/************************************************************/
 /*product div*/
-/**/
+/************************************************************/
 .product-title{
     color: #002b5a;
     font-size: 17px;
@@ -66,9 +73,9 @@ p{
 
 
 
-/**/
+/************************************************************/
 /*buttons*/
-/**/
+/************************************************************/
 .light-button{
     background-color: #ffffff;
     color: #002b5a;
@@ -84,3 +91,9 @@ p{
     border-radius: 3px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 2px #fff inset;
 }
+
+
+
+/************************************************************/
+/*product div*/
+/************************************************************/
