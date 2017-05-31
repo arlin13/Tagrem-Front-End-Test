@@ -1,0 +1,86 @@
+body{
+    /*background-image: url(./../materials/images/);*/
+    background-color: #E2E2E2;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1, h2, h3{
+    color: #002b5a;
+    margin-bottom: 42px;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 42px;
+    font-weight: 200;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+h3{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+/*header content*/
+p{
+    color: #333;
+    font-size: 18px;
+}
+
+/*light-gray box*/
+p{
+    color: #333;
+    font-size: 12px; 
+    text-align: justify;
+}
+
+
+
+/**/
+/*product div*/
+/**/
+.product-title{
+    color: #002b5a;
+    font-size: 17px;
+}
+
+.product-subtitle{
+    color: #4987ca;
+    font-size: 13px;
+}
+
+.product-text{
+    font-size: 13px;
+    color: #666666;
+}
+
+.product-link{
+    font-size: 13px;
+    color: #666666;
+}
+
+
+
+/**/
+/*buttons*/
+/**/
+.light-button{
+    background-color: #ffffff;
+    color: #002b5a;
+    font-size: 14px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 2px #fff inset;
+}
+
+.dark-button{
+    background-color: #002b5a;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 2px #fff inset;
+}
