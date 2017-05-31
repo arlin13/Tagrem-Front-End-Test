@@ -21,7 +21,7 @@
                 ac hendrerit nulla. Sed nec ex commodo, tincidunt felis ac, iaculis ipsum.</p>
             <p>Morbi ac hendrerit nulla. Sed nec ex commodo, tincidunt felis ac, iaculis ipsum</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 search">
             <h2>State Finder</h2>
             <select>
                 <option value="">Select State</option>
@@ -79,74 +79,120 @@
             </select>
             <button type="submit">Submit</button>
         </div>
-        <div class="col-md-12">
+        <div class="col-md-12 grid">
             <h2>In Gravida</h2>
             <div class="row">
                 <div class="col-md-4">
                     <h3>Cras ac mauris</h3>
                     <p>nteger dictum hendrerit pharetra. Cras fermentum posuere egestas.</p>
-                    <a>Learn More</a>
+                    <button class="light-button">
+                        Learn More
+                        <img src="./materials/images/arrow-btn-blue.png" alt="">    
+                    </button>
                 </div>
                 <div class="col-md-4">
                     <h3>Curabitur elementum</h3>
                     <p>Cras vel imperdiet mauris. Pellentesque libero mauris, interdum a felis et, condimentum mattis erat.</p>
-                    <a>Learn More</a>
+                    <button class="light-button">
+                        Learn More
+                        <img src="./materials/images/arrow-btn-blue.png" alt="">    
+                    </button>
                 </div>
                 <div class="col-md-4">
                     <h3>Awards and Recognitions</h3>
                     <p>Aliquam eget ligula mauris. Etiam viverra non turpis eu auctor. Nullam pretium est libero, et condimentum
                         massa egestas id. </p>
-                    <a>Learn More</a>
+                    <button class="light-button">
+                        Learn More
+                        <img src="./materials/images/arrow-btn-blue.png" alt="">    
+                    </button>
                 </div>
                 <div class="col-md-4">
                     <h3>Morbi placerat </h3>
                     <p> Nam feugiat ultrices ligula eget faucibus. Mauris convallis ipsum est.</p>
-                    <a>Learn More</a>
+                    <button class="light-button">
+                        Learn More
+                        <img src="./materials/images/arrow-btn-blue.png" alt="">    
+                    </button>
                 </div>
                 <div class="col-md-4">
                     <h3>Suspendisse eu</h3>
                     <p>Duis pretium elementum dui, id feugiat neque facilisis vel.</p>
-                    <a>Learn More</a>
+                    <button class="light-button">
+                        Learn More
+                        <img src="./materials/images/arrow-btn-blue.png" alt="">    
+                    </button>
                 </div>
                 <div class="col-md-4">
                     <h3> Integer faucibus</h3>
                     <p> Vivamus at rutrum est, eu pellentesque lacus. Curabitur imperdiet tortor sit amet enim ullamcorper, a
                         aliquet odio rutrum.
                     </p>
-                    <a>Learn More</a>
+                    <button class="light-button">
+                        Learn More
+                        <img src="./materials/images/arrow-btn-blue.png" alt="">    
+                    </button>
                 </div>
             </div>
         </div>
-        <div class="col-md-12">
-            <h2>Products</h2>
-            Fitler by
-            <select>
-                <option>All</option>
-                <option>Less Than $500</option>
-                <option>From $500 to $1000</option>
-                <option>From $1000 to $2000</option>
-                <option>$2000 or more</option>
-            </select>
-            <ul>
-                <li>
-                    Product Title 1 <br> Starting at $500 <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                    <a>Learn More</a>
-                </li>
-                <li>
-                    Product Title 2<br> Starting at 1900<br> Donec ornare magna sit amet erat molestie sollicitudin ac vitae
-                    lectus.
-                    </br>
-                    <a>Learn More</a>
-                </li>
-                <li>
-                    Product Title 3<br> Starting at 1900<br> Cras non metus sed odio tristique imperdiet.</br>
-                    <a>Learn More</a>
-                </li>
-                <li>
-                    Product Title 3<br> Starting at 1900<br> Pellentesque mattis tellus ut molestie dapibus.</br>
-                    <a>Learn More</a>
-                </li>
-            </ul>
+        <div class="col-md-12 grid">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>Products</h2>
+                </div>
+                <div class="col-md-4">
+                    Fitler by
+                    <select>
+                        <option>All</option>
+                        <option>Less Than $500</option>
+                        <option>From $500 to $1000</option>
+                        <option>From $1000 to $2000</option>
+                        <option>$2000 or more</option>
+                    </select>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-3">
+                        <p class="product-title">Product Title 1</p>
+                        <p class="product-subtitle">Starting at $500</p>
+                        <p class="product-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <img class="product-img" src="./materials/images/cereal_b.jpg" alt="">
+                        <a class="product-link">
+                            Learn More
+                            <img src="./materials/images/arrow-btn-blue.png" alt="">    
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="product-title">Product Title 2</p>
+                        <p class="product-subtitle">Starting at $1900</p>
+                        <p class="product-text">Donec ornare magna sit amet erat molestie sollicitudin ac vitae lectus.</p>
+                        <img class="product-img" src="./materials/images/flower_b.jpg" alt="">
+                        <a class="product-link">
+                            Learn More
+                            <img src="./materials/images/arrow-btn-blue.png" alt="">    
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="product-title">Product Title 3</p>
+                        <p class="product-subtitle">Starting at 1900</p>
+                        <p class="product-text">Cras non metus sed odio tristique imperdiet.</p>
+                        <img class="product-img" src="./materials/images/machine_b.jpg" alt="">
+                        <a class="product-link">
+                            Learn More
+                            <img src="./materials/images/arrow-btn-blue.png" alt="">    
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="product-title">Product Title 4</p>
+                        <p class="product-subtitle">Starting at $1900</p>
+                        <p class="product-text">Pellentesque mattis tellus ut molestie dapibus.</p>
+                        <img class="product-img" src="./materials/images/candy_b.jpg" alt="">
+                        <a class="product-link">
+                            Learn More
+                            <img src="./materials/images/arrow-btn-blue.png" alt="">    
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script type="text/javascript">

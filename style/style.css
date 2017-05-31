@@ -5,6 +5,7 @@ body{
 #banner{
     background-image: url("./../materials/images/banner.jpg");   
     height: 416px; 
+    margin-bottom: 30px;
 }
 
 #container{
@@ -33,6 +34,12 @@ h3{
     font-weight: normal;
 }
 
+select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
 /*header content*/
 p{
     color: #333;
@@ -44,6 +51,19 @@ p{
     color: #333;
     font-size: 12px; 
     text-align: justify;
+}
+
+
+/************************************************************/
+/*grid*/
+/************************************************************/
+.grid{
+    background-color: #F3F3F3;
+    border-bottom: 5px solid #E2E2E2;
+}
+
+.product-img{
+    width:100%;
 }
 
 
@@ -64,11 +84,12 @@ p{
 .product-text{
     font-size: 13px;
     color: #666666;
+    height: 60px;
 }
 
 .product-link{
     font-size: 13px;
-    color: #666666;
+    color: #002b5a;
 }
 
 
@@ -81,7 +102,8 @@ p{
     color: #002b5a;
     font-size: 14px;
     border-radius: 3px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 2px #fff inset;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25), 0 2px #fff inset;
 }
 
 .dark-button{
@@ -89,11 +111,29 @@ p{
     color: #ffffff;
     font-size: 14px;
     border-radius: 3px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 2px #fff inset;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25), 0 2px #fff inset;
 }
 
 
 
 /************************************************************/
-/*product div*/
+/*search box*/
 /************************************************************/
+.search{
+    background-color: #EEEEF0;
+}
+.search h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.search p{
+    color: #002b5a;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.search option{
+    color: #002b5a;
+    font-size: 20px;
+}
+
